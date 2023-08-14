@@ -35,7 +35,12 @@ nav a {
 }
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
+.carousel-item img {
+	height: auto;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -60,6 +65,8 @@ nav a {
 }
 .picture img {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 #about-me {
 	flex: 2
@@ -89,7 +96,7 @@ nav a {
 }
 .nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #831165;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -227,7 +234,6 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
-
 
 @media all and (max-width: 1180px) {
 	.picture {
