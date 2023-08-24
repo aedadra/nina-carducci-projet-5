@@ -40,9 +40,14 @@ nav a {
 .carousel-item img {
 	height: 100%;
 }
+.itemscope {
+	display: none;
+}
 
 #about {
 	display: flex;
+	width: 100%;
+	height: auto;
 	background-color: #F6D2B8;
 	padding-inline: 100px;
 	padding-block: 100px;
@@ -69,7 +74,13 @@ nav a {
 	object-fit: cover;
 }
 #about-me {
-	flex: 2
+	flex: 2;
+	width: auto;
+	height: auto;
+}
+.gallery {
+	width: auto;
+	height: auto;
 }
 .about-me__title {
 	margin-top: 1em;
