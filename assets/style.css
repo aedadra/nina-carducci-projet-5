@@ -47,12 +47,13 @@ nav a {
 #about {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	width: 100%;
 	height: auto;
 	background-color: #F6D2B8;
 	padding-inline: 100px;
 	padding-block: 100px;
-	position: relative;
+	position: sticky;
 }
 .picture.left::before {
 	content: ' ';
@@ -78,8 +79,7 @@ nav a {
 	flex: 2;
 	width: auto;
 	height: auto;
-	display: flex;
-	flex-direction: column;
+	display: block;
 }
 .gallery {
 	width: auto;
