@@ -46,6 +46,7 @@ nav a {
 
 #about {
 	display: flex;
+	flex-direction: row;
 	width: 100%;
 	height: auto;
 	background-color: #F6D2B8;
@@ -77,6 +78,8 @@ nav a {
 	flex: 2;
 	width: auto;
 	height: auto;
+	display: flex;
+	flex-direction: column;
 }
 .gallery {
 	width: auto;
